@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "commands-nx",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "tasksRunnerOptions": {
     "default": {
@@ -38,5 +38,8 @@
       "default"
     ],
     "sharedGlobals": []
-  }
+  },
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
 }
