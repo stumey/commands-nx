@@ -3,5 +3,18 @@
   "version": 2,
   "projects": {
     "six-min-api": "apps/SixMinAPI"
+  },
+  "generators": {
+    "@nx-dotnet/core:app": {
+      "language": "C#",
+      "tags": "type:api",
+      "template": "webapi",
+      "testTemplate": "xunit"
+    },
+    "@nx-dotnet/core:lib": {
+      "language": "C#",
+      "template": "classlib",
+      "testTemplate": "xunit"
+    }
   }
 }
