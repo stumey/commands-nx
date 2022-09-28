@@ -46,15 +46,18 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Setup Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3.5.0
       with:
        node-version: 12.x
 
+    - name: Install PNPM
+      run: npm install --global pnpm
+
     - name: Install Nx dependencies
-      run: npm install
+      run: pnpm install
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: pnpm build 
 
     - name: Test
-      run: dotnet test
+      run: pnpm test
