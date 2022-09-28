@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "sourceRoot": "apps/SixMinAPI",
   "npmScope": "commands-nx",
   "affected": {
     "defaultBase": "main"
