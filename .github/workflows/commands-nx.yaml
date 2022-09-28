@@ -57,7 +57,7 @@ jobs:
       run: pnpm install
 
     - name: Build
-      run: pnpm build 
+      run: pnpm build:six-min-api
 
     - name: Test
-      run: pnpm test
+      run: pnpm test:six-min-api

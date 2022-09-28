@@ -2,7 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "six-min-api": "apps/SixMinAPI"
+    "six-min-api": "apps/SixMinAPI",
+    "SixMinAPI.Test": "apps/SixMinAPI.Test"
   },
   "generators": {
     "@nx-dotnet/core:app": {
