@@ -3,7 +3,9 @@
   "version": 2,
   "projects": {
     "six-min-api": "apps/SixMinAPI",
-    "SixMinAPI.Test": "apps/SixMinAPI.Test"
+    "SixMinAPI.Test": "apps/SixMinAPI.Test",
+    "CommandsBlazorClient": "apps/CommandsBlazorClient",
+    "CommandsBlazorClient.Test": "apps/CommandsBlazorClient.Test"
   },
   "generators": {
     "@nx-dotnet/core:app": {
